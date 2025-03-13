@@ -1,5 +1,6 @@
 #to illustrate hierarchical concept student details as base class from student
 # details, personal details to academic details area derived class 
+#hierarchical inheritance
 class Students:
     def __init__(self):
         self.name = "Yugesh"

@@ -1,3 +1,4 @@
+#Multiple inheritance
 class Acedamic:
     def __init__(self):
         self.subMarks = 80

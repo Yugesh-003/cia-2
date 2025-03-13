@@ -1,3 +1,4 @@
+#single inheritance
 # Base class: Academic
 class Academic:
     def __init__(self):
