@@ -1,10 +1,7 @@
-from abc import ABC, abstractmethod
-
 # Abstract class
-class Fruit(ABC):
-    @abstractmethod
+class Fruit:
     def taste(self):
-        pass
+        raise NotImplementedError("Subclasses must implement taste method")
 
 # Concrete class 1
 class Apple(Fruit):
